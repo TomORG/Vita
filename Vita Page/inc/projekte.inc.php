@@ -1,0 +1,5 @@
+<h1 id="mainHeader">Projekte und Technologien</h1>
+
+<div>
+	<p>Bisher entwickelte ich Webseiten in einem Team in dem die Aufgaben der Webentwicklung in aller Regel in Zusammenarbeit und nicht von einem alleine umgesetzt worden sind. In meinen bisherigen T&auml;tigkeit im Bezug zur Entwicklung von Webseiten habe ich aber schon am Design (<span class="marked">CSS</span>) als auch an der Ausarbeitung der Formularstruktur(<span class="marked">HTML</span>, <span class="marked">XML</span>) und der Verarbeitungslogik von Benutzerinteraktionen(<span class="marked">PHP</span>, <span class="marked">Java</span>) mitgewirkt. Dabei entwickelte ich Webseiten ohne Unterst&uuml;tzung eines Frameworks als auch mit der Hilfe eines Frameworks (z. B. <span class="marked">Adobe CQ5/AEM</span>, <span class="marked">JQuery</span>, ...).</p>
+</div>

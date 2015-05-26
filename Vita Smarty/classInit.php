@@ -1,0 +1,3 @@
+<?php 
+$includeHelper = new IncludeHelper();
+?>
