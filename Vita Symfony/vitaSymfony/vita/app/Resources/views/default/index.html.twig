@@ -1,15 +1,5 @@
 {% extends 'basic/base.html.twig' %}
 
 {% block content %}
-	{% if content == 'werdegang' %}
-		{% include 'content/werdegang.html.twig' %}
-	{% elseif content == 'kenntnisse' %}
-		{% include 'content/kenntnisse.html.twig' %}
-	{% elseif content == 'motivation' %}
-		{% include 'content/motivation.html.twig' %}
-	{% elseif content == 'projekte' %}
-		{% include 'content/projekte.html.twig' %}
-	{% else %}
-		{% include 'content/home.html.twig' %}
-	{% endif %}
+	{% include contentTemplate %}
 {% endblock %}

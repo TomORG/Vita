@@ -21,6 +21,20 @@ class DefaultController extends Controller
      */
     public function contentAction($content)
     {
-		return $this->render('default/index.html.twig', array('content' => $content));
+		$contentTemplatesPath = 'content/';
+		
+		$contentTemplate = $contentTemplatesPath . 'home.html.twig';
+		
+		if($content == 'werdegang') {
+			$contentTemplate = $contentTemplatesPath . 'werdegang.html.twig';
+		} else if($content == 'kenntnisse') {
+			$contentTemplate = $contentTemplatesPath . 'kenntnisse.html.twig' ;
+		} else if($content == 'motivation') {
+			$contentTemplate = $contentTemplatesPath . 'motivation.html.twig';
+		} else if($content == 'projekte') {
+			$contentTemplate = $contentTemplatesPath . 'projekte.html.twig';
+		}
+		
+		return $this->render('default/index.html.twig', array('contentTemplate' => $contentTemplate));
     }
 }
